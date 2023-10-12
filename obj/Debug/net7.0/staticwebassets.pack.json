@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\serna\\Downloads\\ProgramacionWeb-BackEnd-master\\ProgramacionWeb-BackEnd-master\\ProgramacionWeb-Backend\\wwwroot\\img\\paisajeazul.jpeg",
+      "PackagePath": "staticwebassets\\img\\paisajeazul.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\serna\\Downloads\\ProgramacionWeb-BackEnd-master\\ProgramacionWeb-BackEnd-master\\ProgramacionWeb-Backend\\wwwroot\\img\\paisajecafe.jpeg",
+      "PackagePath": "staticwebassets\\img\\paisajecafe.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\serna\\Downloads\\ProgramacionWeb-BackEnd-master\\ProgramacionWeb-BackEnd-master\\ProgramacionWeb-Backend\\wwwroot\\img\\paisajerosa.jpeg",
+      "PackagePath": "staticwebassets\\img\\paisajerosa.jpeg"
+    },
+    {
       "Id": "C:\\Users\\serna\\Downloads\\ProgramacionWeb-BackEnd-master\\ProgramacionWeb-BackEnd-master\\ProgramacionWeb-Backend\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

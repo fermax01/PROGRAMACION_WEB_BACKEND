@@ -31,6 +31,9 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Personas" asp-action="Index">Persona</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Contacto" asp-action="Index">contacto</a>
+                        </li>
 
                     </ul>
                     <partial name="_LoginPartial" />
@@ -38,10 +41,10 @@
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+    <div class="container-fluid">
+       
             @RenderBody()
-        </main>
+     
     </div>
 
     <footer class="border-top footer text-muted">
