@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\img\\paisajerosa.jpeg"
     },
     {
+      "Id": "C:\\Users\\serna\\Downloads\\ProgramacionWeb-BackEnd-master\\ProgramacionWeb-BackEnd-master\\ProgramacionWeb-Backend\\wwwroot\\img\\paisajeverde.jpg",
+      "PackagePath": "staticwebassets\\img\\paisajeverde.jpg"
+    },
+    {
       "Id": "C:\\Users\\serna\\Downloads\\ProgramacionWeb-BackEnd-master\\ProgramacionWeb-BackEnd-master\\ProgramacionWeb-Backend\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

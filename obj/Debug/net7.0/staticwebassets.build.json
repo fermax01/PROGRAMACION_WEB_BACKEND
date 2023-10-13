@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Xze7h1W2R1OuLv563iXOyDBQpuZaB0YI6OrUd8Stgvo=",
+  "Hash": "ueX8uWnJZ3wrxduTyGQ1ZdmIlTVeQ+la+3Zw1N205rk=",
   "Source": "ProgramacionWeb-Backend",
   "BasePath": "_content/ProgramacionWeb-Backend",
   "Mode": "Default",
@@ -1154,6 +1154,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\paisajerosa.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\serna\\Downloads\\ProgramacionWeb-BackEnd-master\\ProgramacionWeb-BackEnd-master\\ProgramacionWeb-Backend\\wwwroot\\img\\paisajeverde.jpg",
+      "SourceId": "ProgramacionWeb-Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\serna\\Downloads\\ProgramacionWeb-BackEnd-master\\ProgramacionWeb-BackEnd-master\\ProgramacionWeb-Backend\\wwwroot\\",
+      "BasePath": "_content/ProgramacionWeb-Backend",
+      "RelativePath": "img/paisajeverde.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\paisajeverde.jpg"
     },
     {
       "Identity": "C:\\Users\\serna\\Downloads\\ProgramacionWeb-BackEnd-master\\ProgramacionWeb-BackEnd-master\\ProgramacionWeb-Backend\\wwwroot\\js\\site.js",

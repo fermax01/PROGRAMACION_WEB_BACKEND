@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ProgramacionWeb_Backend.Data;
 using ProgramacionWeb_Backend.Models;
+using ProgramacionWeb_Backend.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +15,7 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<Web24BdContext>();
 builder.Services.AddControllersWithViews();
+builder.Services.AddTransient<IEmailSenderService,EmailSenderService > ();
 builder.Services.AddSession();
 
 var app = builder.Build();
