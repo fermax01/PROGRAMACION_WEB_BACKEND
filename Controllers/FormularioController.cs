@@ -1,34 +1,36 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ProgramacionWeb_Backend.Models;
 using ProgramacionWeb_Backend.Services;
 
 namespace ProgramacionWeb_Backend.Controllers
 {
     public class FormularioController : Controller
     {
-         private readonly IEmailSenderService _emailSender;
-        public FormularioController(IEmailSenderService emailSender)
-        {
-            _emailSender = emailSender;
-        }
+        private readonly IEmailSenderService _emailsenderservice;
         public IActionResult Index()
         {
-            _emailSender.SendEmail("moise.torres.edu.mx");
+
             return View();
         }
-        
+        public FormularioController(IEmailSenderService emailsenderservice)
+        {
+            _emailsenderservice = emailsenderservice;
+        }
+        public IActionResult EnviarFormulario(EmailViewModel model)
+        {
+            TempData["Email"] = model.Email;
+            TempData["Comentario"] = model.Mensaje;
+            _emailsenderservice.ProcesarSolicitud(model);
 
-        //public string? Nombre { get; set; }
+            var result = _emailsenderservice.SendEmail(model.Email);
+            if (!result)
+            {
+                TempData["Email"] = null;
+                TempData["EmailError"] = "Ocurrio un error";
+            }
+            return View("Index", model);
 
-        //public string? Apellido { get; set; }
-
-        //public string? Curp { get; set; }
-
-        //public DateTime? FechaNacimiento { get; set; }
-
-        //public string? Rfc { get; set; }
-
-        //public string? NombrePuesto { get; set; }
-            
-
-    }
+        }
+       
+    }
 }
